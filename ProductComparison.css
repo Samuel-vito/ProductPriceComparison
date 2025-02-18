@@ -1,0 +1,45 @@
+.container {
+    text-align: center;
+  }
+  .header {
+    font-size: 24px;
+    padding: 10px;
+    background-color: #003366;
+    color: white;
+  }
+  .search-bar input {
+    padding: 8px;
+    width: 60%;
+  }
+  .search-bar button {
+    padding: 8px 12px;
+    background: #007bff;
+    color: white;
+  }
+  .categories {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+  .categories button {
+    margin: 5px;
+    padding: 10px;
+  }
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .product-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 200px;
+    background: #f9f9f9;
+  }
+  .product-card img {
+    width: 100px;
+    height: 100px;
+  }
+  
